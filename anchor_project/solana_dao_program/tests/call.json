@@ -1,0 +1,14 @@
+{
+  "program_id": "SxDdnnHxfc2NmCoGrBQneWu5TmEw5qypGtoXsyQpbJZ",
+  "accounts": [
+    {
+      "key": "4LsM3WjTPCsREsojCchEaadgpwgf29JeAgGTaLKMJANX",
+      "owner": "BPFLoaderUpgradeab1e11111111111111111111111",
+      "is_signer": true,
+      "is_writable": true,
+      "lamports": 1000,
+      "data": [0, 0, 0, 3]
+    }
+  ],
+  "instruction_data": [31, 32, 23, 24]
+}

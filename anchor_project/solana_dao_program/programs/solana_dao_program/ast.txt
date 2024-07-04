@@ -1,0 +1,1688 @@
+Crate {
+    attrs: [],
+    items: [
+        Item {
+            attrs: [],
+            id: NodeId(4294967040),
+            span: src/lib.rs:1:1: 1:29 (#0),
+            vis: Visibility {
+                kind: Inherited,
+                span: no-location (#0),
+                tokens: None,
+            },
+            ident: #0,
+            kind: Use(
+                UseTree {
+                    prefix: Path {
+                        span: src/lib.rs:1:5: 1:25 (#0),
+                        segments: [
+                            PathSegment {
+                                ident: anchor_lang#0,
+                                id: NodeId(4294967040),
+                                args: None,
+                            },
+                            PathSegment {
+                                ident: prelude#0,
+                                id: NodeId(4294967040),
+                                args: None,
+                            },
+                        ],
+                        tokens: None,
+                    },
+                    kind: Glob,
+                    span: src/lib.rs:1:5: 1:28 (#0),
+                },
+            ),
+            tokens: None,
+        },
+        Item {
+            attrs: [],
+            id: NodeId(4294967040),
+            span: src/lib.rs:3:1: 3:28 (#0),
+            vis: Visibility {
+                kind: Inherited,
+                span: src/lib.rs:3:1: 3:1 (#0),
+                tokens: None,
+            },
+            ident: #0,
+            kind: Use(
+                UseTree {
+                    prefix: Path {
+                        span: src/lib.rs:3:5: 3:24 (#0),
+                        segments: [
+                            PathSegment {
+                                ident: crate#0,
+                                id: NodeId(4294967040),
+                                args: None,
+                            },
+                            PathSegment {
+                                ident: instructions#0,
+                                id: NodeId(4294967040),
+                                args: None,
+                            },
+                        ],
+                        tokens: None,
+                    },
+                    kind: Glob,
+                    span: src/lib.rs:3:5: 3:27 (#0),
+                },
+            ),
+            tokens: None,
+        },
+        Item {
+            attrs: [],
+            id: NodeId(4294967040),
+            span: src/lib.rs:5:1: 5:22 (#0),
+            vis: Visibility {
+                kind: Public,
+                span: src/lib.rs:5:1: 5:4 (#0),
+                tokens: None,
+            },
+            ident: instructions#0,
+            kind: Mod(
+                Default,
+                Unloaded,
+            ),
+            tokens: None,
+        },
+        Item {
+            attrs: [],
+            id: NodeId(4294967040),
+            span: src/lib.rs:6:1: 6:16 (#0),
+            vis: Visibility {
+                kind: Public,
+                span: src/lib.rs:6:1: 6:4 (#0),
+                tokens: None,
+            },
+            ident: states#0,
+            kind: Mod(
+                Default,
+                Unloaded,
+            ),
+            tokens: None,
+        },
+        Item {
+            attrs: [],
+            id: NodeId(4294967040),
+            span: src/lib.rs:7:1: 7:16 (#0),
+            vis: Visibility {
+                kind: Public,
+                span: src/lib.rs:7:1: 7:4 (#0),
+                tokens: None,
+            },
+            ident: errors#0,
+            kind: Mod(
+                Default,
+                Unloaded,
+            ),
+            tokens: None,
+        },
+        Item {
+            attrs: [],
+            id: NodeId(4294967040),
+            span: src/lib.rs:8:1: 8:60 (#0),
+            vis: Visibility {
+                kind: Inherited,
+                span: src/lib.rs:8:1: 8:1 (#0),
+                tokens: None,
+            },
+            ident: #0,
+            kind: MacCall(
+                MacCall {
+                    path: Path {
+                        span: src/lib.rs:8:1: 8:11 (#0),
+                        segments: [
+                            PathSegment {
+                                ident: declare_id#0,
+                                id: NodeId(4294967040),
+                                args: None,
+                            },
+                        ],
+                        tokens: None,
+                    },
+                    args: DelimArgs {
+                        dspan: DelimSpan {
+                            open: src/lib.rs:8:12: 8:13 (#0),
+                            close: src/lib.rs:8:58: 8:59 (#0),
+                        },
+                        delim: Parenthesis,
+                        tokens: TokenStream(
+                            [
+                                Token(
+                                    Token {
+                                        kind: Literal(
+                                            Lit {
+                                                kind: Str,
+                                                symbol: "SxDdnnHxfc2NmCoGrBQneWu5TmEw5qypGtoXsyQpbJZ",
+                                                suffix: None,
+                                            },
+                                        ),
+                                        span: src/lib.rs:8:13: 8:58 (#0),
+                                    },
+                                    JointHidden,
+                                ),
+                            ],
+                        ),
+                    },
+                },
+            ),
+            tokens: None,
+        },
+        Item {
+            attrs: [
+                Attribute {
+                    kind: Normal(
+                        NormalAttr {
+                            item: AttrItem {
+                                unsafety: Default,
+                                path: Path {
+                                    span: src/lib.rs:10:3: 10:10 (#0),
+                                    segments: [
+                                        PathSegment {
+                                            ident: program#0,
+                                            id: NodeId(4294967040),
+                                            args: None,
+                                        },
+                                    ],
+                                    tokens: None,
+                                },
+                                args: Empty,
+                                tokens: None,
+                            },
+                            tokens: Some(
+                                LazyAttrTokenStream(AttrTokenStream([Token(Token { kind: Pound, span: src/lib.rs:10:1: 10:2 (#0) }, JointHidden), Delimited(DelimSpan { open: src/lib.rs:10:2: 10:3 (#0), close: src/lib.rs:10:10: 10:11 (#0) }, DelimSpacing { open: JointHidden, close: Alone }, Bracket, AttrTokenStream([Token(Token { kind: Ident("program", No), span: src/lib.rs:10:3: 10:10 (#0) }, JointHidden)]))])),
+                            ),
+                        },
+                    ),
+                    id: AttrId(0),
+                    style: Outer,
+                    span: src/lib.rs:10:1: 10:11 (#0),
+                },
+            ],
+            id: NodeId(4294967040),
+            span: src/lib.rs:11:1: 29:2 (#0),
+            vis: Visibility {
+                kind: Public,
+                span: src/lib.rs:11:1: 11:4 (#0),
+                tokens: None,
+            },
+            ident: solana_dao_program#0,
+            kind: Mod(
+                Default,
+                Loaded(
+                    [
+                        Item {
+                            attrs: [],
+                            id: NodeId(4294967040),
+                            span: src/lib.rs:12:5: 12:18 (#0),
+                            vis: Visibility {
+                                kind: Inherited,
+                                span: src/lib.rs:12:5: 12:5 (#0),
+                                tokens: None,
+                            },
+                            ident: #0,
+                            kind: Use(
+                                UseTree {
+                                    prefix: Path {
+                                        span: src/lib.rs:12:9: 12:14 (#0),
+                                        segments: [
+                                            PathSegment {
+                                                ident: super#0,
+                                                id: NodeId(4294967040),
+                                                args: None,
+                                            },
+                                        ],
+                                        tokens: None,
+                                    },
+                                    kind: Glob,
+                                    span: src/lib.rs:12:9: 12:17 (#0),
+                                },
+                            ),
+                            tokens: None,
+                        },
+                        Item {
+                            attrs: [],
+                            id: NodeId(4294967040),
+                            span: src/lib.rs:14:5: 16:6 (#0),
+                            vis: Visibility {
+                                kind: Public,
+                                span: src/lib.rs:14:5: 14:8 (#0),
+                                tokens: None,
+                            },
+                            ident: create_dao#0,
+                            kind: Fn(
+                                Fn {
+                                    defaultness: Final,
+                                    generics: Generics {
+                                        params: [],
+                                        where_clause: WhereClause {
+                                            has_where_token: false,
+                                            predicates: [],
+                                            span: src/lib.rs:14:118: 14:118 (#0),
+                                        },
+                                        span: src/lib.rs:14:22: 14:22 (#0),
+                                    },
+                                    sig: FnSig {
+                                        header: FnHeader {
+                                            safety: Default,
+                                            coroutine_kind: None,
+                                            constness: No,
+                                            ext: None,
+                                        },
+                                        decl: FnDecl {
+                                            inputs: [
+                                                Param {
+                                                    attrs: [],
+                                                    ty: Ty {
+                                                        id: NodeId(4294967040),
+                                                        kind: Path(
+                                                            None,
+                                                            Path {
+                                                                span: src/lib.rs:14:28: 14:46 (#0),
+                                                                segments: [
+                                                                    PathSegment {
+                                                                        ident: Context#0,
+                                                                        id: NodeId(4294967040),
+                                                                        args: Some(
+                                                                            AngleBracketed(
+                                                                                AngleBracketedArgs {
+                                                                                    span: src/lib.rs:14:35: 14:46 (#0),
+                                                                                    args: [
+                                                                                        Arg(
+                                                                                            Type(
+                                                                                                Ty {
+                                                                                                    id: NodeId(4294967040),
+                                                                                                    kind: Path(
+                                                                                                        None,
+                                                                                                        Path {
+                                                                                                            span: src/lib.rs:14:36: 14:45 (#0),
+                                                                                                            segments: [
+                                                                                                                PathSegment {
+                                                                                                                    ident: CreateDao#0,
+                                                                                                                    id: NodeId(4294967040),
+                                                                                                                    args: None,
+                                                                                                                },
+                                                                                                            ],
+                                                                                                            tokens: None,
+                                                                                                        },
+                                                                                                    ),
+                                                                                                    span: src/lib.rs:14:36: 14:45 (#0),
+                                                                                                    tokens: None,
+                                                                                                },
+                                                                                            ),
+                                                                                        ),
+                                                                                    ],
+                                                                                },
+                                                                            ),
+                                                                        ),
+                                                                    },
+                                                                ],
+                                                                tokens: None,
+                                                            },
+                                                        ),
+                                                        span: src/lib.rs:14:28: 14:46 (#0),
+                                                        tokens: None,
+                                                    },
+                                                    pat: Pat {
+                                                        id: NodeId(4294967040),
+                                                        kind: Ident(
+                                                            BindingMode(
+                                                                No,
+                                                                Not,
+                                                            ),
+                                                            ctx#0,
+                                                            None,
+                                                        ),
+                                                        span: src/lib.rs:14:23: 14:26 (#0),
+                                                        tokens: None,
+                                                    },
+                                                    id: NodeId(4294967040),
+                                                    span: src/lib.rs:14:23: 14:46 (#0),
+                                                    is_placeholder: false,
+                                                },
+                                                Param {
+                                                    attrs: [],
+                                                    ty: Ty {
+                                                        id: NodeId(4294967040),
+                                                        kind: Path(
+                                                            None,
+                                                            Path {
+                                                                span: src/lib.rs:14:54: 14:60 (#0),
+                                                                segments: [
+                                                                    PathSegment {
+                                                                        ident: String#0,
+                                                                        id: NodeId(4294967040),
+                                                                        args: None,
+                                                                    },
+                                                                ],
+                                                                tokens: None,
+                                                            },
+                                                        ),
+                                                        span: src/lib.rs:14:54: 14:60 (#0),
+                                                        tokens: None,
+                                                    },
+                                                    pat: Pat {
+                                                        id: NodeId(4294967040),
+                                                        kind: Ident(
+                                                            BindingMode(
+                                                                No,
+                                                                Not,
+                                                            ),
+                                                            name#0,
+                                                            None,
+                                                        ),
+                                                        span: src/lib.rs:14:48: 14:52 (#0),
+                                                        tokens: None,
+                                                    },
+                                                    id: NodeId(4294967040),
+                                                    span: src/lib.rs:14:48: 14:60 (#0),
+                                                    is_placeholder: false,
+                                                },
+                                                Param {
+                                                    attrs: [],
+                                                    ty: Ty {
+                                                        id: NodeId(4294967040),
+                                                        kind: Path(
+                                                            None,
+                                                            Path {
+                                                                span: src/lib.rs:14:75: 14:81 (#0),
+                                                                segments: [
+                                                                    PathSegment {
+                                                                        ident: String#0,
+                                                                        id: NodeId(4294967040),
+                                                                        args: None,
+                                                                    },
+                                                                ],
+                                                                tokens: None,
+                                                            },
+                                                        ),
+                                                        span: src/lib.rs:14:75: 14:81 (#0),
+                                                        tokens: None,
+                                                    },
+                                                    pat: Pat {
+                                                        id: NodeId(4294967040),
+                                                        kind: Ident(
+                                                            BindingMode(
+                                                                No,
+                                                                Not,
+                                                            ),
+                                                            description#0,
+                                                            None,
+                                                        ),
+                                                        span: src/lib.rs:14:62: 14:73 (#0),
+                                                        tokens: None,
+                                                    },
+                                                    id: NodeId(4294967040),
+                                                    span: src/lib.rs:14:62: 14:81 (#0),
+                                                    is_placeholder: false,
+                                                },
+                                                Param {
+                                                    attrs: [],
+                                                    ty: Ty {
+                                                        id: NodeId(4294967040),
+                                                        kind: Path(
+                                                            None,
+                                                            Path {
+                                                                span: src/lib.rs:14:100: 14:103 (#0),
+                                                                segments: [
+                                                                    PathSegment {
+                                                                        ident: u64#0,
+                                                                        id: NodeId(4294967040),
+                                                                        args: None,
+                                                                    },
+                                                                ],
+                                                                tokens: None,
+                                                            },
+                                                        ),
+                                                        span: src/lib.rs:14:100: 14:103 (#0),
+                                                        tokens: None,
+                                                    },
+                                                    pat: Pat {
+                                                        id: NodeId(4294967040),
+                                                        kind: Ident(
+                                                            BindingMode(
+                                                                No,
+                                                                Not,
+                                                            ),
+                                                            treasury_amount#0,
+                                                            None,
+                                                        ),
+                                                        span: src/lib.rs:14:83: 14:98 (#0),
+                                                        tokens: None,
+                                                    },
+                                                    id: NodeId(4294967040),
+                                                    span: src/lib.rs:14:83: 14:103 (#0),
+                                                    is_placeholder: false,
+                                                },
+                                            ],
+                                            output: Ty(
+                                                Ty {
+                                                    id: NodeId(4294967040),
+                                                    kind: Path(
+                                                        None,
+                                                        Path {
+                                                            span: src/lib.rs:14:108: 14:118 (#0),
+                                                            segments: [
+                                                                PathSegment {
+                                                                    ident: Result#0,
+                                                                    id: NodeId(4294967040),
+                                                                    args: Some(
+                                                                        AngleBracketed(
+                                                                            AngleBracketedArgs {
+                                                                                span: src/lib.rs:14:114: 14:118 (#0),
+                                                                                args: [
+                                                                                    Arg(
+                                                                                        Type(
+                                                                                            Ty {
+                                                                                                id: NodeId(4294967040),
+                                                                                                kind: Tup(
+                                                                                                    [],
+                                                                                                ),
+                                                                                                span: src/lib.rs:14:115: 14:117 (#0),
+                                                                                                tokens: None,
+                                                                                            },
+                                                                                        ),
+                                                                                    ),
+                                                                                ],
+                                                                            },
+                                                                        ),
+                                                                    ),
+                                                                },
+                                                            ],
+                                                            tokens: None,
+                                                        },
+                                                    ),
+                                                    span: src/lib.rs:14:108: 14:118 (#0),
+                                                    tokens: None,
+                                                },
+                                            ),
+                                        },
+                                        span: src/lib.rs:14:5: 14:118 (#0),
+                                    },
+                                    body: Some(
+                                        Block {
+                                            stmts: [
+                                                Stmt {
+                                                    id: NodeId(4294967040),
+                                                    kind: Semi(
+                                                        Expr {
+                                                            id: NodeId(4294967040),
+                                                            kind: Ret(
+                                                                Some(
+                                                                    Expr {
+                                                                        id: NodeId(4294967040),
+                                                                        kind: Call(
+                                                                            Expr {
+                                                                                id: NodeId(4294967040),
+                                                                                kind: Path(
+                                                                                    None,
+                                                                                    Path {
+                                                                                        span: src/lib.rs:15:16: 15:29 (#0),
+                                                                                        segments: [
+                                                                                            PathSegment {
+                                                                                                ident: create_dao_fn#0,
+                                                                                                id: NodeId(4294967040),
+                                                                                                args: None,
+                                                                                            },
+                                                                                        ],
+                                                                                        tokens: None,
+                                                                                    },
+                                                                                ),
+                                                                                span: src/lib.rs:15:16: 15:29 (#0),
+                                                                                attrs: [],
+                                                                                tokens: None,
+                                                                            },
+                                                                            [
+                                                                                Expr {
+                                                                                    id: NodeId(4294967040),
+                                                                                    kind: Path(
+                                                                                        None,
+                                                                                        Path {
+                                                                                            span: src/lib.rs:15:30: 15:33 (#0),
+                                                                                            segments: [
+                                                                                                PathSegment {
+                                                                                                    ident: ctx#0,
+                                                                                                    id: NodeId(4294967040),
+                                                                                                    args: None,
+                                                                                                },
+                                                                                            ],
+                                                                                            tokens: None,
+                                                                                        },
+                                                                                    ),
+                                                                                    span: src/lib.rs:15:30: 15:33 (#0),
+                                                                                    attrs: [],
+                                                                                    tokens: None,
+                                                                                },
+                                                                                Expr {
+                                                                                    id: NodeId(4294967040),
+                                                                                    kind: Path(
+                                                                                        None,
+                                                                                        Path {
+                                                                                            span: src/lib.rs:15:35: 15:39 (#0),
+                                                                                            segments: [
+                                                                                                PathSegment {
+                                                                                                    ident: name#0,
+                                                                                                    id: NodeId(4294967040),
+                                                                                                    args: None,
+                                                                                                },
+                                                                                            ],
+                                                                                            tokens: None,
+                                                                                        },
+                                                                                    ),
+                                                                                    span: src/lib.rs:15:35: 15:39 (#0),
+                                                                                    attrs: [],
+                                                                                    tokens: None,
+                                                                                },
+                                                                                Expr {
+                                                                                    id: NodeId(4294967040),
+                                                                                    kind: Path(
+                                                                                        None,
+                                                                                        Path {
+                                                                                            span: src/lib.rs:15:41: 15:52 (#0),
+                                                                                            segments: [
+                                                                                                PathSegment {
+                                                                                                    ident: description#0,
+                                                                                                    id: NodeId(4294967040),
+                                                                                                    args: None,
+                                                                                                },
+                                                                                            ],
+                                                                                            tokens: None,
+                                                                                        },
+                                                                                    ),
+                                                                                    span: src/lib.rs:15:41: 15:52 (#0),
+                                                                                    attrs: [],
+                                                                                    tokens: None,
+                                                                                },
+                                                                                Expr {
+                                                                                    id: NodeId(4294967040),
+                                                                                    kind: Path(
+                                                                                        None,
+                                                                                        Path {
+                                                                                            span: src/lib.rs:15:54: 15:69 (#0),
+                                                                                            segments: [
+                                                                                                PathSegment {
+                                                                                                    ident: treasury_amount#0,
+                                                                                                    id: NodeId(4294967040),
+                                                                                                    args: None,
+                                                                                                },
+                                                                                            ],
+                                                                                            tokens: None,
+                                                                                        },
+                                                                                    ),
+                                                                                    span: src/lib.rs:15:54: 15:69 (#0),
+                                                                                    attrs: [],
+                                                                                    tokens: None,
+                                                                                },
+                                                                            ],
+                                                                        ),
+                                                                        span: src/lib.rs:15:16: 15:70 (#0),
+                                                                        attrs: [],
+                                                                        tokens: None,
+                                                                    },
+                                                                ),
+                                                            ),
+                                                            span: src/lib.rs:15:9: 15:70 (#0),
+                                                            attrs: [],
+                                                            tokens: None,
+                                                        },
+                                                    ),
+                                                    span: src/lib.rs:15:9: 15:71 (#0),
+                                                },
+                                            ],
+                                            id: NodeId(4294967040),
+                                            rules: Default,
+                                            span: src/lib.rs:14:119: 16:6 (#0),
+                                            tokens: None,
+                                            could_be_bare_literal: false,
+                                        },
+                                    ),
+                                },
+                            ),
+                            tokens: None,
+                        },
+                        Item {
+                            attrs: [],
+                            id: NodeId(4294967040),
+                            span: src/lib.rs:18:5: 20:6 (#0),
+                            vis: Visibility {
+                                kind: Public,
+                                span: src/lib.rs:18:5: 18:8 (#0),
+                                tokens: None,
+                            },
+                            ident: create_proposal#0,
+                            kind: Fn(
+                                Fn {
+                                    defaultness: Final,
+                                    generics: Generics {
+                                        params: [],
+                                        where_clause: WhereClause {
+                                            has_where_token: false,
+                                            predicates: [],
+                                            span: src/lib.rs:18:168: 18:168 (#0),
+                                        },
+                                        span: src/lib.rs:18:27: 18:27 (#0),
+                                    },
+                                    sig: FnSig {
+                                        header: FnHeader {
+                                            safety: Default,
+                                            coroutine_kind: None,
+                                            constness: No,
+                                            ext: None,
+                                        },
+                                        decl: FnDecl {
+                                            inputs: [
+                                                Param {
+                                                    attrs: [],
+                                                    ty: Ty {
+                                                        id: NodeId(4294967040),
+                                                        kind: Path(
+                                                            None,
+                                                            Path {
+                                                                span: src/lib.rs:18:33: 18:56 (#0),
+                                                                segments: [
+                                                                    PathSegment {
+                                                                        ident: Context#0,
+                                                                        id: NodeId(4294967040),
+                                                                        args: Some(
+                                                                            AngleBracketed(
+                                                                                AngleBracketedArgs {
+                                                                                    span: src/lib.rs:18:40: 18:56 (#0),
+                                                                                    args: [
+                                                                                        Arg(
+                                                                                            Type(
+                                                                                                Ty {
+                                                                                                    id: NodeId(4294967040),
+                                                                                                    kind: Path(
+                                                                                                        None,
+                                                                                                        Path {
+                                                                                                            span: src/lib.rs:18:41: 18:55 (#0),
+                                                                                                            segments: [
+                                                                                                                PathSegment {
+                                                                                                                    ident: CreateProposal#0,
+                                                                                                                    id: NodeId(4294967040),
+                                                                                                                    args: None,
+                                                                                                                },
+                                                                                                            ],
+                                                                                                            tokens: None,
+                                                                                                        },
+                                                                                                    ),
+                                                                                                    span: src/lib.rs:18:41: 18:55 (#0),
+                                                                                                    tokens: None,
+                                                                                                },
+                                                                                            ),
+                                                                                        ),
+                                                                                    ],
+                                                                                },
+                                                                            ),
+                                                                        ),
+                                                                    },
+                                                                ],
+                                                                tokens: None,
+                                                            },
+                                                        ),
+                                                        span: src/lib.rs:18:33: 18:56 (#0),
+                                                        tokens: None,
+                                                    },
+                                                    pat: Pat {
+                                                        id: NodeId(4294967040),
+                                                        kind: Ident(
+                                                            BindingMode(
+                                                                No,
+                                                                Not,
+                                                            ),
+                                                            ctx#0,
+                                                            None,
+                                                        ),
+                                                        span: src/lib.rs:18:28: 18:31 (#0),
+                                                        tokens: None,
+                                                    },
+                                                    id: NodeId(4294967040),
+                                                    span: src/lib.rs:18:28: 18:56 (#0),
+                                                    is_placeholder: false,
+                                                },
+                                                Param {
+                                                    attrs: [],
+                                                    ty: Ty {
+                                                        id: NodeId(4294967040),
+                                                        kind: Path(
+                                                            None,
+                                                            Path {
+                                                                span: src/lib.rs:18:64: 18:70 (#0),
+                                                                segments: [
+                                                                    PathSegment {
+                                                                        ident: String#0,
+                                                                        id: NodeId(4294967040),
+                                                                        args: None,
+                                                                    },
+                                                                ],
+                                                                tokens: None,
+                                                            },
+                                                        ),
+                                                        span: src/lib.rs:18:64: 18:70 (#0),
+                                                        tokens: None,
+                                                    },
+                                                    pat: Pat {
+                                                        id: NodeId(4294967040),
+                                                        kind: Ident(
+                                                            BindingMode(
+                                                                No,
+                                                                Not,
+                                                            ),
+                                                            name#0,
+                                                            None,
+                                                        ),
+                                                        span: src/lib.rs:18:58: 18:62 (#0),
+                                                        tokens: None,
+                                                    },
+                                                    id: NodeId(4294967040),
+                                                    span: src/lib.rs:18:58: 18:70 (#0),
+                                                    is_placeholder: false,
+                                                },
+                                                Param {
+                                                    attrs: [],
+                                                    ty: Ty {
+                                                        id: NodeId(4294967040),
+                                                        kind: Path(
+                                                            None,
+                                                            Path {
+                                                                span: src/lib.rs:18:85: 18:91 (#0),
+                                                                segments: [
+                                                                    PathSegment {
+                                                                        ident: String#0,
+                                                                        id: NodeId(4294967040),
+                                                                        args: None,
+                                                                    },
+                                                                ],
+                                                                tokens: None,
+                                                            },
+                                                        ),
+                                                        span: src/lib.rs:18:85: 18:91 (#0),
+                                                        tokens: None,
+                                                    },
+                                                    pat: Pat {
+                                                        id: NodeId(4294967040),
+                                                        kind: Ident(
+                                                            BindingMode(
+                                                                No,
+                                                                Not,
+                                                            ),
+                                                            description#0,
+                                                            None,
+                                                        ),
+                                                        span: src/lib.rs:18:72: 18:83 (#0),
+                                                        tokens: None,
+                                                    },
+                                                    id: NodeId(4294967040),
+                                                    span: src/lib.rs:18:72: 18:91 (#0),
+                                                    is_placeholder: false,
+                                                },
+                                                Param {
+                                                    attrs: [],
+                                                    ty: Ty {
+                                                        id: NodeId(4294967040),
+                                                        kind: Path(
+                                                            None,
+                                                            Path {
+                                                                span: src/lib.rs:18:103: 18:106 (#0),
+                                                                segments: [
+                                                                    PathSegment {
+                                                                        ident: u64#0,
+                                                                        id: NodeId(4294967040),
+                                                                        args: None,
+                                                                    },
+                                                                ],
+                                                                tokens: None,
+                                                            },
+                                                        ),
+                                                        span: src/lib.rs:18:103: 18:106 (#0),
+                                                        tokens: None,
+                                                    },
+                                                    pat: Pat {
+                                                        id: NodeId(4294967040),
+                                                        kind: Ident(
+                                                            BindingMode(
+                                                                No,
+                                                                Not,
+                                                            ),
+                                                            deadline#0,
+                                                            None,
+                                                        ),
+                                                        span: src/lib.rs:18:93: 18:101 (#0),
+                                                        tokens: None,
+                                                    },
+                                                    id: NodeId(4294967040),
+                                                    span: src/lib.rs:18:93: 18:106 (#0),
+                                                    is_placeholder: false,
+                                                },
+                                                Param {
+                                                    attrs: [],
+                                                    ty: Ty {
+                                                        id: NodeId(4294967040),
+                                                        kind: Path(
+                                                            None,
+                                                            Path {
+                                                                span: src/lib.rs:18:126: 18:129 (#0),
+                                                                segments: [
+                                                                    PathSegment {
+                                                                        ident: u64#0,
+                                                                        id: NodeId(4294967040),
+                                                                        args: None,
+                                                                    },
+                                                                ],
+                                                                tokens: None,
+                                                            },
+                                                        ),
+                                                        span: src/lib.rs:18:126: 18:129 (#0),
+                                                        tokens: None,
+                                                    },
+                                                    pat: Pat {
+                                                        id: NodeId(4294967040),
+                                                        kind: Ident(
+                                                            BindingMode(
+                                                                No,
+                                                                Not,
+                                                            ),
+                                                            quantity_to_send#0,
+                                                            None,
+                                                        ),
+                                                        span: src/lib.rs:18:108: 18:124 (#0),
+                                                        tokens: None,
+                                                    },
+                                                    id: NodeId(4294967040),
+                                                    span: src/lib.rs:18:108: 18:129 (#0),
+                                                    is_placeholder: false,
+                                                },
+                                                Param {
+                                                    attrs: [],
+                                                    ty: Ty {
+                                                        id: NodeId(4294967040),
+                                                        kind: Path(
+                                                            None,
+                                                            Path {
+                                                                span: src/lib.rs:18:147: 18:153 (#0),
+                                                                segments: [
+                                                                    PathSegment {
+                                                                        ident: Pubkey#0,
+                                                                        id: NodeId(4294967040),
+                                                                        args: None,
+                                                                    },
+                                                                ],
+                                                                tokens: None,
+                                                            },
+                                                        ),
+                                                        span: src/lib.rs:18:147: 18:153 (#0),
+                                                        tokens: None,
+                                                    },
+                                                    pat: Pat {
+                                                        id: NodeId(4294967040),
+                                                        kind: Ident(
+                                                            BindingMode(
+                                                                No,
+                                                                Not,
+                                                            ),
+                                                            send_to_pubkey#0,
+                                                            None,
+                                                        ),
+                                                        span: src/lib.rs:18:131: 18:145 (#0),
+                                                        tokens: None,
+                                                    },
+                                                    id: NodeId(4294967040),
+                                                    span: src/lib.rs:18:131: 18:153 (#0),
+                                                    is_placeholder: false,
+                                                },
+                                            ],
+                                            output: Ty(
+                                                Ty {
+                                                    id: NodeId(4294967040),
+                                                    kind: Path(
+                                                        None,
+                                                        Path {
+                                                            span: src/lib.rs:18:158: 18:168 (#0),
+                                                            segments: [
+                                                                PathSegment {
+                                                                    ident: Result#0,
+                                                                    id: NodeId(4294967040),
+                                                                    args: Some(
+                                                                        AngleBracketed(
+                                                                            AngleBracketedArgs {
+                                                                                span: src/lib.rs:18:164: 18:168 (#0),
+                                                                                args: [
+                                                                                    Arg(
+                                                                                        Type(
+                                                                                            Ty {
+                                                                                                id: NodeId(4294967040),
+                                                                                                kind: Tup(
+                                                                                                    [],
+                                                                                                ),
+                                                                                                span: src/lib.rs:18:165: 18:167 (#0),
+                                                                                                tokens: None,
+                                                                                            },
+                                                                                        ),
+                                                                                    ),
+                                                                                ],
+                                                                            },
+                                                                        ),
+                                                                    ),
+                                                                },
+                                                            ],
+                                                            tokens: None,
+                                                        },
+                                                    ),
+                                                    span: src/lib.rs:18:158: 18:168 (#0),
+                                                    tokens: None,
+                                                },
+                                            ),
+                                        },
+                                        span: src/lib.rs:18:5: 18:168 (#0),
+                                    },
+                                    body: Some(
+                                        Block {
+                                            stmts: [
+                                                Stmt {
+                                                    id: NodeId(4294967040),
+                                                    kind: Semi(
+                                                        Expr {
+                                                            id: NodeId(4294967040),
+                                                            kind: Ret(
+                                                                Some(
+                                                                    Expr {
+                                                                        id: NodeId(4294967040),
+                                                                        kind: Call(
+                                                                            Expr {
+                                                                                id: NodeId(4294967040),
+                                                                                kind: Path(
+                                                                                    None,
+                                                                                    Path {
+                                                                                        span: src/lib.rs:19:16: 19:34 (#0),
+                                                                                        segments: [
+                                                                                            PathSegment {
+                                                                                                ident: create_proposal_fn#0,
+                                                                                                id: NodeId(4294967040),
+                                                                                                args: None,
+                                                                                            },
+                                                                                        ],
+                                                                                        tokens: None,
+                                                                                    },
+                                                                                ),
+                                                                                span: src/lib.rs:19:16: 19:34 (#0),
+                                                                                attrs: [],
+                                                                                tokens: None,
+                                                                            },
+                                                                            [
+                                                                                Expr {
+                                                                                    id: NodeId(4294967040),
+                                                                                    kind: Path(
+                                                                                        None,
+                                                                                        Path {
+                                                                                            span: src/lib.rs:19:35: 19:38 (#0),
+                                                                                            segments: [
+                                                                                                PathSegment {
+                                                                                                    ident: ctx#0,
+                                                                                                    id: NodeId(4294967040),
+                                                                                                    args: None,
+                                                                                                },
+                                                                                            ],
+                                                                                            tokens: None,
+                                                                                        },
+                                                                                    ),
+                                                                                    span: src/lib.rs:19:35: 19:38 (#0),
+                                                                                    attrs: [],
+                                                                                    tokens: None,
+                                                                                },
+                                                                                Expr {
+                                                                                    id: NodeId(4294967040),
+                                                                                    kind: Path(
+                                                                                        None,
+                                                                                        Path {
+                                                                                            span: src/lib.rs:19:40: 19:44 (#0),
+                                                                                            segments: [
+                                                                                                PathSegment {
+                                                                                                    ident: name#0,
+                                                                                                    id: NodeId(4294967040),
+                                                                                                    args: None,
+                                                                                                },
+                                                                                            ],
+                                                                                            tokens: None,
+                                                                                        },
+                                                                                    ),
+                                                                                    span: src/lib.rs:19:40: 19:44 (#0),
+                                                                                    attrs: [],
+                                                                                    tokens: None,
+                                                                                },
+                                                                                Expr {
+                                                                                    id: NodeId(4294967040),
+                                                                                    kind: Path(
+                                                                                        None,
+                                                                                        Path {
+                                                                                            span: src/lib.rs:19:46: 19:57 (#0),
+                                                                                            segments: [
+                                                                                                PathSegment {
+                                                                                                    ident: description#0,
+                                                                                                    id: NodeId(4294967040),
+                                                                                                    args: None,
+                                                                                                },
+                                                                                            ],
+                                                                                            tokens: None,
+                                                                                        },
+                                                                                    ),
+                                                                                    span: src/lib.rs:19:46: 19:57 (#0),
+                                                                                    attrs: [],
+                                                                                    tokens: None,
+                                                                                },
+                                                                                Expr {
+                                                                                    id: NodeId(4294967040),
+                                                                                    kind: Path(
+                                                                                        None,
+                                                                                        Path {
+                                                                                            span: src/lib.rs:19:59: 19:67 (#0),
+                                                                                            segments: [
+                                                                                                PathSegment {
+                                                                                                    ident: deadline#0,
+                                                                                                    id: NodeId(4294967040),
+                                                                                                    args: None,
+                                                                                                },
+                                                                                            ],
+                                                                                            tokens: None,
+                                                                                        },
+                                                                                    ),
+                                                                                    span: src/lib.rs:19:59: 19:67 (#0),
+                                                                                    attrs: [],
+                                                                                    tokens: None,
+                                                                                },
+                                                                                Expr {
+                                                                                    id: NodeId(4294967040),
+                                                                                    kind: Path(
+                                                                                        None,
+                                                                                        Path {
+                                                                                            span: src/lib.rs:19:69: 19:85 (#0),
+                                                                                            segments: [
+                                                                                                PathSegment {
+                                                                                                    ident: quantity_to_send#0,
+                                                                                                    id: NodeId(4294967040),
+                                                                                                    args: None,
+                                                                                                },
+                                                                                            ],
+                                                                                            tokens: None,
+                                                                                        },
+                                                                                    ),
+                                                                                    span: src/lib.rs:19:69: 19:85 (#0),
+                                                                                    attrs: [],
+                                                                                    tokens: None,
+                                                                                },
+                                                                                Expr {
+                                                                                    id: NodeId(4294967040),
+                                                                                    kind: Path(
+                                                                                        None,
+                                                                                        Path {
+                                                                                            span: src/lib.rs:19:87: 19:101 (#0),
+                                                                                            segments: [
+                                                                                                PathSegment {
+                                                                                                    ident: send_to_pubkey#0,
+                                                                                                    id: NodeId(4294967040),
+                                                                                                    args: None,
+                                                                                                },
+                                                                                            ],
+                                                                                            tokens: None,
+                                                                                        },
+                                                                                    ),
+                                                                                    span: src/lib.rs:19:87: 19:101 (#0),
+                                                                                    attrs: [],
+                                                                                    tokens: None,
+                                                                                },
+                                                                            ],
+                                                                        ),
+                                                                        span: src/lib.rs:19:16: 19:102 (#0),
+                                                                        attrs: [],
+                                                                        tokens: None,
+                                                                    },
+                                                                ),
+                                                            ),
+                                                            span: src/lib.rs:19:9: 19:102 (#0),
+                                                            attrs: [],
+                                                            tokens: None,
+                                                        },
+                                                    ),
+                                                    span: src/lib.rs:19:9: 19:103 (#0),
+                                                },
+                                            ],
+                                            id: NodeId(4294967040),
+                                            rules: Default,
+                                            span: src/lib.rs:18:169: 20:6 (#0),
+                                            tokens: None,
+                                            could_be_bare_literal: false,
+                                        },
+                                    ),
+                                },
+                            ),
+                            tokens: None,
+                        },
+                        Item {
+                            attrs: [],
+                            id: NodeId(4294967040),
+                            span: src/lib.rs:22:5: 24:6 (#0),
+                            vis: Visibility {
+                                kind: Public,
+                                span: src/lib.rs:22:5: 22:8 (#0),
+                                tokens: None,
+                            },
+                            ident: create_vote#0,
+                            kind: Fn(
+                                Fn {
+                                    defaultness: Final,
+                                    generics: Generics {
+                                        params: [],
+                                        where_clause: WhereClause {
+                                            has_where_token: false,
+                                            predicates: [],
+                                            span: src/lib.rs:22:75: 22:75 (#0),
+                                        },
+                                        span: src/lib.rs:22:23: 22:23 (#0),
+                                    },
+                                    sig: FnSig {
+                                        header: FnHeader {
+                                            safety: Default,
+                                            coroutine_kind: None,
+                                            constness: No,
+                                            ext: None,
+                                        },
+                                        decl: FnDecl {
+                                            inputs: [
+                                                Param {
+                                                    attrs: [],
+                                                    ty: Ty {
+                                                        id: NodeId(4294967040),
+                                                        kind: Path(
+                                                            None,
+                                                            Path {
+                                                                span: src/lib.rs:22:29: 22:48 (#0),
+                                                                segments: [
+                                                                    PathSegment {
+                                                                        ident: Context#0,
+                                                                        id: NodeId(4294967040),
+                                                                        args: Some(
+                                                                            AngleBracketed(
+                                                                                AngleBracketedArgs {
+                                                                                    span: src/lib.rs:22:36: 22:48 (#0),
+                                                                                    args: [
+                                                                                        Arg(
+                                                                                            Type(
+                                                                                                Ty {
+                                                                                                    id: NodeId(4294967040),
+                                                                                                    kind: Path(
+                                                                                                        None,
+                                                                                                        Path {
+                                                                                                            span: src/lib.rs:22:37: 22:47 (#0),
+                                                                                                            segments: [
+                                                                                                                PathSegment {
+                                                                                                                    ident: CreateVote#0,
+                                                                                                                    id: NodeId(4294967040),
+                                                                                                                    args: None,
+                                                                                                                },
+                                                                                                            ],
+                                                                                                            tokens: None,
+                                                                                                        },
+                                                                                                    ),
+                                                                                                    span: src/lib.rs:22:37: 22:47 (#0),
+                                                                                                    tokens: None,
+                                                                                                },
+                                                                                            ),
+                                                                                        ),
+                                                                                    ],
+                                                                                },
+                                                                            ),
+                                                                        ),
+                                                                    },
+                                                                ],
+                                                                tokens: None,
+                                                            },
+                                                        ),
+                                                        span: src/lib.rs:22:29: 22:48 (#0),
+                                                        tokens: None,
+                                                    },
+                                                    pat: Pat {
+                                                        id: NodeId(4294967040),
+                                                        kind: Ident(
+                                                            BindingMode(
+                                                                No,
+                                                                Not,
+                                                            ),
+                                                            ctx#0,
+                                                            None,
+                                                        ),
+                                                        span: src/lib.rs:22:24: 22:27 (#0),
+                                                        tokens: None,
+                                                    },
+                                                    id: NodeId(4294967040),
+                                                    span: src/lib.rs:22:24: 22:48 (#0),
+                                                    is_placeholder: false,
+                                                },
+                                                Param {
+                                                    attrs: [],
+                                                    ty: Ty {
+                                                        id: NodeId(4294967040),
+                                                        kind: Path(
+                                                            None,
+                                                            Path {
+                                                                span: src/lib.rs:22:56: 22:60 (#0),
+                                                                segments: [
+                                                                    PathSegment {
+                                                                        ident: bool#0,
+                                                                        id: NodeId(4294967040),
+                                                                        args: None,
+                                                                    },
+                                                                ],
+                                                                tokens: None,
+                                                            },
+                                                        ),
+                                                        span: src/lib.rs:22:56: 22:60 (#0),
+                                                        tokens: None,
+                                                    },
+                                                    pat: Pat {
+                                                        id: NodeId(4294967040),
+                                                        kind: Ident(
+                                                            BindingMode(
+                                                                No,
+                                                                Not,
+                                                            ),
+                                                            vote#0,
+                                                            None,
+                                                        ),
+                                                        span: src/lib.rs:22:50: 22:54 (#0),
+                                                        tokens: None,
+                                                    },
+                                                    id: NodeId(4294967040),
+                                                    span: src/lib.rs:22:50: 22:60 (#0),
+                                                    is_placeholder: false,
+                                                },
+                                            ],
+                                            output: Ty(
+                                                Ty {
+                                                    id: NodeId(4294967040),
+                                                    kind: Path(
+                                                        None,
+                                                        Path {
+                                                            span: src/lib.rs:22:65: 22:75 (#0),
+                                                            segments: [
+                                                                PathSegment {
+                                                                    ident: Result#0,
+                                                                    id: NodeId(4294967040),
+                                                                    args: Some(
+                                                                        AngleBracketed(
+                                                                            AngleBracketedArgs {
+                                                                                span: src/lib.rs:22:71: 22:75 (#0),
+                                                                                args: [
+                                                                                    Arg(
+                                                                                        Type(
+                                                                                            Ty {
+                                                                                                id: NodeId(4294967040),
+                                                                                                kind: Tup(
+                                                                                                    [],
+                                                                                                ),
+                                                                                                span: src/lib.rs:22:72: 22:74 (#0),
+                                                                                                tokens: None,
+                                                                                            },
+                                                                                        ),
+                                                                                    ),
+                                                                                ],
+                                                                            },
+                                                                        ),
+                                                                    ),
+                                                                },
+                                                            ],
+                                                            tokens: None,
+                                                        },
+                                                    ),
+                                                    span: src/lib.rs:22:65: 22:75 (#0),
+                                                    tokens: None,
+                                                },
+                                            ),
+                                        },
+                                        span: src/lib.rs:22:5: 22:75 (#0),
+                                    },
+                                    body: Some(
+                                        Block {
+                                            stmts: [
+                                                Stmt {
+                                                    id: NodeId(4294967040),
+                                                    kind: Semi(
+                                                        Expr {
+                                                            id: NodeId(4294967040),
+                                                            kind: Ret(
+                                                                Some(
+                                                                    Expr {
+                                                                        id: NodeId(4294967040),
+                                                                        kind: Call(
+                                                                            Expr {
+                                                                                id: NodeId(4294967040),
+                                                                                kind: Path(
+                                                                                    None,
+                                                                                    Path {
+                                                                                        span: src/lib.rs:23:16: 23:23 (#0),
+                                                                                        segments: [
+                                                                                            PathSegment {
+                                                                                                ident: vote_fn#0,
+                                                                                                id: NodeId(4294967040),
+                                                                                                args: None,
+                                                                                            },
+                                                                                        ],
+                                                                                        tokens: None,
+                                                                                    },
+                                                                                ),
+                                                                                span: src/lib.rs:23:16: 23:23 (#0),
+                                                                                attrs: [],
+                                                                                tokens: None,
+                                                                            },
+                                                                            [
+                                                                                Expr {
+                                                                                    id: NodeId(4294967040),
+                                                                                    kind: Path(
+                                                                                        None,
+                                                                                        Path {
+                                                                                            span: src/lib.rs:23:24: 23:27 (#0),
+                                                                                            segments: [
+                                                                                                PathSegment {
+                                                                                                    ident: ctx#0,
+                                                                                                    id: NodeId(4294967040),
+                                                                                                    args: None,
+                                                                                                },
+                                                                                            ],
+                                                                                            tokens: None,
+                                                                                        },
+                                                                                    ),
+                                                                                    span: src/lib.rs:23:24: 23:27 (#0),
+                                                                                    attrs: [],
+                                                                                    tokens: None,
+                                                                                },
+                                                                                Expr {
+                                                                                    id: NodeId(4294967040),
+                                                                                    kind: Path(
+                                                                                        None,
+                                                                                        Path {
+                                                                                            span: src/lib.rs:23:29: 23:33 (#0),
+                                                                                            segments: [
+                                                                                                PathSegment {
+                                                                                                    ident: vote#0,
+                                                                                                    id: NodeId(4294967040),
+                                                                                                    args: None,
+                                                                                                },
+                                                                                            ],
+                                                                                            tokens: None,
+                                                                                        },
+                                                                                    ),
+                                                                                    span: src/lib.rs:23:29: 23:33 (#0),
+                                                                                    attrs: [],
+                                                                                    tokens: None,
+                                                                                },
+                                                                            ],
+                                                                        ),
+                                                                        span: src/lib.rs:23:16: 23:34 (#0),
+                                                                        attrs: [],
+                                                                        tokens: None,
+                                                                    },
+                                                                ),
+                                                            ),
+                                                            span: src/lib.rs:23:9: 23:34 (#0),
+                                                            attrs: [],
+                                                            tokens: None,
+                                                        },
+                                                    ),
+                                                    span: src/lib.rs:23:9: 23:35 (#0),
+                                                },
+                                            ],
+                                            id: NodeId(4294967040),
+                                            rules: Default,
+                                            span: src/lib.rs:22:76: 24:6 (#0),
+                                            tokens: None,
+                                            could_be_bare_literal: false,
+                                        },
+                                    ),
+                                },
+                            ),
+                            tokens: None,
+                        },
+                        Item {
+                            attrs: [],
+                            id: NodeId(4294967040),
+                            span: src/lib.rs:26:5: 28:6 (#0),
+                            vis: Visibility {
+                                kind: Public,
+                                span: src/lib.rs:26:5: 26:8 (#0),
+                                tokens: None,
+                            },
+                            ident: execute_proposal#0,
+                            kind: Fn(
+                                Fn {
+                                    defaultness: Final,
+                                    generics: Generics {
+                                        params: [],
+                                        where_clause: WhereClause {
+                                            has_where_token: false,
+                                            predicates: [],
+                                            span: src/lib.rs:26:73: 26:73 (#0),
+                                        },
+                                        span: src/lib.rs:26:28: 26:28 (#0),
+                                    },
+                                    sig: FnSig {
+                                        header: FnHeader {
+                                            safety: Default,
+                                            coroutine_kind: None,
+                                            constness: No,
+                                            ext: None,
+                                        },
+                                        decl: FnDecl {
+                                            inputs: [
+                                                Param {
+                                                    attrs: [],
+                                                    ty: Ty {
+                                                        id: NodeId(4294967040),
+                                                        kind: Path(
+                                                            None,
+                                                            Path {
+                                                                span: src/lib.rs:26:34: 26:58 (#0),
+                                                                segments: [
+                                                                    PathSegment {
+                                                                        ident: Context#0,
+                                                                        id: NodeId(4294967040),
+                                                                        args: Some(
+                                                                            AngleBracketed(
+                                                                                AngleBracketedArgs {
+                                                                                    span: src/lib.rs:26:41: 26:58 (#0),
+                                                                                    args: [
+                                                                                        Arg(
+                                                                                            Type(
+                                                                                                Ty {
+                                                                                                    id: NodeId(4294967040),
+                                                                                                    kind: Path(
+                                                                                                        None,
+                                                                                                        Path {
+                                                                                                            span: src/lib.rs:26:42: 26:57 (#0),
+                                                                                                            segments: [
+                                                                                                                PathSegment {
+                                                                                                                    ident: ExecuteProposal#0,
+                                                                                                                    id: NodeId(4294967040),
+                                                                                                                    args: None,
+                                                                                                                },
+                                                                                                            ],
+                                                                                                            tokens: None,
+                                                                                                        },
+                                                                                                    ),
+                                                                                                    span: src/lib.rs:26:42: 26:57 (#0),
+                                                                                                    tokens: None,
+                                                                                                },
+                                                                                            ),
+                                                                                        ),
+                                                                                    ],
+                                                                                },
+                                                                            ),
+                                                                        ),
+                                                                    },
+                                                                ],
+                                                                tokens: None,
+                                                            },
+                                                        ),
+                                                        span: src/lib.rs:26:34: 26:58 (#0),
+                                                        tokens: None,
+                                                    },
+                                                    pat: Pat {
+                                                        id: NodeId(4294967040),
+                                                        kind: Ident(
+                                                            BindingMode(
+                                                                No,
+                                                                Not,
+                                                            ),
+                                                            ctx#0,
+                                                            None,
+                                                        ),
+                                                        span: src/lib.rs:26:29: 26:32 (#0),
+                                                        tokens: None,
+                                                    },
+                                                    id: NodeId(4294967040),
+                                                    span: src/lib.rs:26:29: 26:58 (#0),
+                                                    is_placeholder: false,
+                                                },
+                                            ],
+                                            output: Ty(
+                                                Ty {
+                                                    id: NodeId(4294967040),
+                                                    kind: Path(
+                                                        None,
+                                                        Path {
+                                                            span: src/lib.rs:26:63: 26:73 (#0),
+                                                            segments: [
+                                                                PathSegment {
+                                                                    ident: Result#0,
+                                                                    id: NodeId(4294967040),
+                                                                    args: Some(
+                                                                        AngleBracketed(
+                                                                            AngleBracketedArgs {
+                                                                                span: src/lib.rs:26:69: 26:73 (#0),
+                                                                                args: [
+                                                                                    Arg(
+                                                                                        Type(
+                                                                                            Ty {
+                                                                                                id: NodeId(4294967040),
+                                                                                                kind: Tup(
+                                                                                                    [],
+                                                                                                ),
+                                                                                                span: src/lib.rs:26:70: 26:72 (#0),
+                                                                                                tokens: None,
+                                                                                            },
+                                                                                        ),
+                                                                                    ),
+                                                                                ],
+                                                                            },
+                                                                        ),
+                                                                    ),
+                                                                },
+                                                            ],
+                                                            tokens: None,
+                                                        },
+                                                    ),
+                                                    span: src/lib.rs:26:63: 26:73 (#0),
+                                                    tokens: None,
+                                                },
+                                            ),
+                                        },
+                                        span: src/lib.rs:26:5: 26:73 (#0),
+                                    },
+                                    body: Some(
+                                        Block {
+                                            stmts: [
+                                                Stmt {
+                                                    id: NodeId(4294967040),
+                                                    kind: Semi(
+                                                        Expr {
+                                                            id: NodeId(4294967040),
+                                                            kind: Ret(
+                                                                Some(
+                                                                    Expr {
+                                                                        id: NodeId(4294967040),
+                                                                        kind: Call(
+                                                                            Expr {
+                                                                                id: NodeId(4294967040),
+                                                                                kind: Path(
+                                                                                    None,
+                                                                                    Path {
+                                                                                        span: src/lib.rs:27:16: 27:35 (#0),
+                                                                                        segments: [
+                                                                                            PathSegment {
+                                                                                                ident: execute_proposal_fn#0,
+                                                                                                id: NodeId(4294967040),
+                                                                                                args: None,
+                                                                                            },
+                                                                                        ],
+                                                                                        tokens: None,
+                                                                                    },
+                                                                                ),
+                                                                                span: src/lib.rs:27:16: 27:35 (#0),
+                                                                                attrs: [],
+                                                                                tokens: None,
+                                                                            },
+                                                                            [
+                                                                                Expr {
+                                                                                    id: NodeId(4294967040),
+                                                                                    kind: Path(
+                                                                                        None,
+                                                                                        Path {
+                                                                                            span: src/lib.rs:27:36: 27:39 (#0),
+                                                                                            segments: [
+                                                                                                PathSegment {
+                                                                                                    ident: ctx#0,
+                                                                                                    id: NodeId(4294967040),
+                                                                                                    args: None,
+                                                                                                },
+                                                                                            ],
+                                                                                            tokens: None,
+                                                                                        },
+                                                                                    ),
+                                                                                    span: src/lib.rs:27:36: 27:39 (#0),
+                                                                                    attrs: [],
+                                                                                    tokens: None,
+                                                                                },
+                                                                            ],
+                                                                        ),
+                                                                        span: src/lib.rs:27:16: 27:40 (#0),
+                                                                        attrs: [],
+                                                                        tokens: None,
+                                                                    },
+                                                                ),
+                                                            ),
+                                                            span: src/lib.rs:27:9: 27:40 (#0),
+                                                            attrs: [],
+                                                            tokens: None,
+                                                        },
+                                                    ),
+                                                    span: src/lib.rs:27:9: 27:41 (#0),
+                                                },
+                                            ],
+                                            id: NodeId(4294967040),
+                                            rules: Default,
+                                            span: src/lib.rs:26:74: 28:6 (#0),
+                                            tokens: None,
+                                            could_be_bare_literal: false,
+                                        },
+                                    ),
+                                },
+                            ),
+                            tokens: None,
+                        },
+                    ],
+                    Yes,
+                    ModSpans {
+                        inner_span: src/lib.rs:12:5: 29:2 (#0),
+                        inject_use_span: src/lib.rs:12:5: 12:5 (#0),
+                    },
+                ),
+            ),
+            tokens: Some(
+                LazyAttrTokenStream(AttrTokenStream([Token(Token { kind: Ident("pub", No), span: src/lib.rs:11:1: 11:4 (#0) }, Alone), Token(Token { kind: Ident("mod", No), span: src/lib.rs:11:5: 11:8 (#0) }, Alone), Token(Token { kind: Ident("solana_dao_program", No), span: src/lib.rs:11:9: 11:27 (#0) }, Alone), Delimited(DelimSpan { open: src/lib.rs:11:28: 11:29 (#0), close: src/lib.rs:29:1: 29:2 (#0) }, DelimSpacing { open: Alone, close: Alone }, Brace, AttrTokenStream([Token(Token { kind: Ident("use", No), span: src/lib.rs:12:5: 12:8 (#0) }, Alone), Token(Token { kind: Ident("super", No), span: src/lib.rs:12:9: 12:14 (#0) }, Joint), Token(Token { kind: PathSep, span: src/lib.rs:12:14: 12:16 (#0) }, Joint), Token(Token { kind: BinOp(Star), span: src/lib.rs:12:16: 12:17 (#0) }, Joint), Token(Token { kind: Semi, span: src/lib.rs:12:17: 12:18 (#0) }, Alone), Token(Token { kind: Ident("pub", No), span: src/lib.rs:14:5: 14:8 (#0) }, Alone), Token(Token { kind: Ident("fn", No), span: src/lib.rs:14:9: 14:11 (#0) }, Alone), Token(Token { kind: Ident("create_dao", No), span: src/lib.rs:14:12: 14:22 (#0) }, JointHidden), Delimited(DelimSpan { open: src/lib.rs:14:22: 14:23 (#0), close: src/lib.rs:14:103: 14:104 (#0) }, DelimSpacing { open: JointHidden, close: Alone }, Parenthesis, AttrTokenStream([Token(Token { kind: Ident("ctx", No), span: src/lib.rs:14:23: 14:26 (#0) }, Joint), Token(Token { kind: Colon, span: src/lib.rs:14:26: 14:27 (#0) }, Alone), Token(Token { kind: Ident("Context", No), span: src/lib.rs:14:28: 14:35 (#0) }, Joint), Token(Token { kind: Lt, span: src/lib.rs:14:35: 14:36 (#0) }, JointHidden), Token(Token { kind: Ident("CreateDao", No), span: src/lib.rs:14:36: 14:45 (#0) }, Joint), Token(Token { kind: Gt, span: src/lib.rs:14:45: 14:46 (#0) }, Joint), Token(Token { kind: Comma, span: src/lib.rs:14:46: 14:47 (#0) }, Alone), Token(Token { kind: Ident("name", No), span: src/lib.rs:14:48: 14:52 (#0) }, Joint), Token(Token { kind: Colon, span: src/lib.rs:14:52: 14:53 (#0) }, Alone), Token(Token { kind: Ident("String", No), span: src/lib.rs:14:54: 14:60 (#0) }, Joint), Token(Token { kind: Comma, span: src/lib.rs:14:60: 14:61 (#0) }, Alone), Token(Token { kind: Ident("description", No), span: src/lib.rs:14:62: 14:73 (#0) }, Joint), Token(Token { kind: Colon, span: src/lib.rs:14:73: 14:74 (#0) }, Alone), Token(Token { kind: Ident("String", No), span: src/lib.rs:14:75: 14:81 (#0) }, Joint), Token(Token { kind: Comma, span: src/lib.rs:14:81: 14:82 (#0) }, Alone), Token(Token { kind: Ident("treasury_amount", No), span: src/lib.rs:14:83: 14:98 (#0) }, Joint), Token(Token { kind: Colon, span: src/lib.rs:14:98: 14:99 (#0) }, Alone), Token(Token { kind: Ident("u64", No), span: src/lib.rs:14:100: 14:103 (#0) }, JointHidden)])), Token(Token { kind: RArrow, span: src/lib.rs:14:105: 14:107 (#0) }, Alone), Token(Token { kind: Ident("Result", No), span: src/lib.rs:14:108: 14:114 (#0) }, Joint), Token(Token { kind: Lt, span: src/lib.rs:14:114: 14:115 (#0) }, JointHidden), Delimited(DelimSpan { open: src/lib.rs:14:115: 14:116 (#0), close: src/lib.rs:14:116: 14:117 (#0) }, DelimSpacing { open: JointHidden, close: Joint }, Parenthesis, AttrTokenStream([])), Token(Token { kind: Gt, span: src/lib.rs:14:117: 14:118 (#0) }, Alone), Delimited(DelimSpan { open: src/lib.rs:14:119: 14:120 (#0), close: src/lib.rs:16:5: 16:6 (#0) }, DelimSpacing { open: Alone, close: Alone }, Brace, AttrTokenStream([Token(Token { kind: Ident("return", No), span: src/lib.rs:15:9: 15:15 (#0) }, Alone), Token(Token { kind: Ident("create_dao_fn", No), span: src/lib.rs:15:16: 15:29 (#0) }, JointHidden), Delimited(DelimSpan { open: src/lib.rs:15:29: 15:30 (#0), close: src/lib.rs:15:69: 15:70 (#0) }, DelimSpacing { open: JointHidden, close: Joint }, Parenthesis, AttrTokenStream([Token(Token { kind: Ident("ctx", No), span: src/lib.rs:15:30: 15:33 (#0) }, Joint), Token(Token { kind: Comma, span: src/lib.rs:15:33: 15:34 (#0) }, Alone), Token(Token { kind: Ident("name", No), span: src/lib.rs:15:35: 15:39 (#0) }, Joint), Token(Token { kind: Comma, span: src/lib.rs:15:39: 15:40 (#0) }, Alone), Token(Token { kind: Ident("description", No), span: src/lib.rs:15:41: 15:52 (#0) }, Joint), Token(Token { kind: Comma, span: src/lib.rs:15:52: 15:53 (#0) }, Alone), Token(Token { kind: Ident("treasury_amount", No), span: src/lib.rs:15:54: 15:69 (#0) }, JointHidden)])), Token(Token { kind: Semi, span: src/lib.rs:15:70: 15:71 (#0) }, Alone)])), Token(Token { kind: Ident("pub", No), span: src/lib.rs:18:5: 18:8 (#0) }, Alone), Token(Token { kind: Ident("fn", No), span: src/lib.rs:18:9: 18:11 (#0) }, Alone), Token(Token { kind: Ident("create_proposal", No), span: src/lib.rs:18:12: 18:27 (#0) }, JointHidden), Delimited(DelimSpan { open: src/lib.rs:18:27: 18:28 (#0), close: src/lib.rs:18:153: 18:154 (#0) }, DelimSpacing { open: JointHidden, close: Alone }, Parenthesis, AttrTokenStream([Token(Token { kind: Ident("ctx", No), span: src/lib.rs:18:28: 18:31 (#0) }, Joint), Token(Token { kind: Colon, span: src/lib.rs:18:31: 18:32 (#0) }, Alone), Token(Token { kind: Ident("Context", No), span: src/lib.rs:18:33: 18:40 (#0) }, Joint), Token(Token { kind: Lt, span: src/lib.rs:18:40: 18:41 (#0) }, JointHidden), Token(Token { kind: Ident("CreateProposal", No), span: src/lib.rs:18:41: 18:55 (#0) }, Joint), Token(Token { kind: Gt, span: src/lib.rs:18:55: 18:56 (#0) }, Joint), Token(Token { kind: Comma, span: src/lib.rs:18:56: 18:57 (#0) }, Alone), Token(Token { kind: Ident("name", No), span: src/lib.rs:18:58: 18:62 (#0) }, Joint), Token(Token { kind: Colon, span: src/lib.rs:18:62: 18:63 (#0) }, Alone), Token(Token { kind: Ident("String", No), span: src/lib.rs:18:64: 18:70 (#0) }, Joint), Token(Token { kind: Comma, span: src/lib.rs:18:70: 18:71 (#0) }, Alone), Token(Token { kind: Ident("description", No), span: src/lib.rs:18:72: 18:83 (#0) }, Joint), Token(Token { kind: Colon, span: src/lib.rs:18:83: 18:84 (#0) }, Alone), Token(Token { kind: Ident("String", No), span: src/lib.rs:18:85: 18:91 (#0) }, Joint), Token(Token { kind: Comma, span: src/lib.rs:18:91: 18:92 (#0) }, Alone), Token(Token { kind: Ident("deadline", No), span: src/lib.rs:18:93: 18:101 (#0) }, Joint), Token(Token { kind: Colon, span: src/lib.rs:18:101: 18:102 (#0) }, Alone), Token(Token { kind: Ident("u64", No), span: src/lib.rs:18:103: 18:106 (#0) }, Joint), Token(Token { kind: Comma, span: src/lib.rs:18:106: 18:107 (#0) }, Alone), Token(Token { kind: Ident("quantity_to_send", No), span: src/lib.rs:18:108: 18:124 (#0) }, Joint), Token(Token { kind: Colon, span: src/lib.rs:18:124: 18:125 (#0) }, Alone), Token(Token { kind: Ident("u64", No), span: src/lib.rs:18:126: 18:129 (#0) }, Joint), Token(Token { kind: Comma, span: src/lib.rs:18:129: 18:130 (#0) }, Alone), Token(Token { kind: Ident("send_to_pubkey", No), span: src/lib.rs:18:131: 18:145 (#0) }, Joint), Token(Token { kind: Colon, span: src/lib.rs:18:145: 18:146 (#0) }, Alone), Token(Token { kind: Ident("Pubkey", No), span: src/lib.rs:18:147: 18:153 (#0) }, JointHidden)])), Token(Token { kind: RArrow, span: src/lib.rs:18:155: 18:157 (#0) }, Alone), Token(Token { kind: Ident("Result", No), span: src/lib.rs:18:158: 18:164 (#0) }, Joint), Token(Token { kind: Lt, span: src/lib.rs:18:164: 18:165 (#0) }, JointHidden), Delimited(DelimSpan { open: src/lib.rs:18:165: 18:166 (#0), close: src/lib.rs:18:166: 18:167 (#0) }, DelimSpacing { open: JointHidden, close: Joint }, Parenthesis, AttrTokenStream([])), Token(Token { kind: Gt, span: src/lib.rs:18:167: 18:168 (#0) }, Alone), Delimited(DelimSpan { open: src/lib.rs:18:169: 18:170 (#0), close: src/lib.rs:20:5: 20:6 (#0) }, DelimSpacing { open: Alone, close: Alone }, Brace, AttrTokenStream([Token(Token { kind: Ident("return", No), span: src/lib.rs:19:9: 19:15 (#0) }, Alone), Token(Token { kind: Ident("create_proposal_fn", No), span: src/lib.rs:19:16: 19:34 (#0) }, JointHidden), Delimited(DelimSpan { open: src/lib.rs:19:34: 19:35 (#0), close: src/lib.rs:19:101: 19:102 (#0) }, DelimSpacing { open: JointHidden, close: Joint }, Parenthesis, AttrTokenStream([Token(Token { kind: Ident("ctx", No), span: src/lib.rs:19:35: 19:38 (#0) }, Joint), Token(Token { kind: Comma, span: src/lib.rs:19:38: 19:39 (#0) }, Alone), Token(Token { kind: Ident("name", No), span: src/lib.rs:19:40: 19:44 (#0) }, Joint), Token(Token { kind: Comma, span: src/lib.rs:19:44: 19:45 (#0) }, Alone), Token(Token { kind: Ident("description", No), span: src/lib.rs:19:46: 19:57 (#0) }, Joint), Token(Token { kind: Comma, span: src/lib.rs:19:57: 19:58 (#0) }, Alone), Token(Token { kind: Ident("deadline", No), span: src/lib.rs:19:59: 19:67 (#0) }, Joint), Token(Token { kind: Comma, span: src/lib.rs:19:67: 19:68 (#0) }, Alone), Token(Token { kind: Ident("quantity_to_send", No), span: src/lib.rs:19:69: 19:85 (#0) }, Joint), Token(Token { kind: Comma, span: src/lib.rs:19:85: 19:86 (#0) }, Alone), Token(Token { kind: Ident("send_to_pubkey", No), span: src/lib.rs:19:87: 19:101 (#0) }, JointHidden)])), Token(Token { kind: Semi, span: src/lib.rs:19:102: 19:103 (#0) }, Alone)])), Token(Token { kind: Ident("pub", No), span: src/lib.rs:22:5: 22:8 (#0) }, Alone), Token(Token { kind: Ident("fn", No), span: src/lib.rs:22:9: 22:11 (#0) }, Alone), Token(Token { kind: Ident("create_vote", No), span: src/lib.rs:22:12: 22:23 (#0) }, JointHidden), Delimited(DelimSpan { open: src/lib.rs:22:23: 22:24 (#0), close: src/lib.rs:22:60: 22:61 (#0) }, DelimSpacing { open: JointHidden, close: Alone }, Parenthesis, AttrTokenStream([Token(Token { kind: Ident("ctx", No), span: src/lib.rs:22:24: 22:27 (#0) }, Joint), Token(Token { kind: Colon, span: src/lib.rs:22:27: 22:28 (#0) }, Alone), Token(Token { kind: Ident("Context", No), span: src/lib.rs:22:29: 22:36 (#0) }, Joint), Token(Token { kind: Lt, span: src/lib.rs:22:36: 22:37 (#0) }, JointHidden), Token(Token { kind: Ident("CreateVote", No), span: src/lib.rs:22:37: 22:47 (#0) }, Joint), Token(Token { kind: Gt, span: src/lib.rs:22:47: 22:48 (#0) }, Joint), Token(Token { kind: Comma, span: src/lib.rs:22:48: 22:49 (#0) }, Alone), Token(Token { kind: Ident("vote", No), span: src/lib.rs:22:50: 22:54 (#0) }, Joint), Token(Token { kind: Colon, span: src/lib.rs:22:54: 22:55 (#0) }, Alone), Token(Token { kind: Ident("bool", No), span: src/lib.rs:22:56: 22:60 (#0) }, JointHidden)])), Token(Token { kind: RArrow, span: src/lib.rs:22:62: 22:64 (#0) }, Alone), Token(Token { kind: Ident("Result", No), span: src/lib.rs:22:65: 22:71 (#0) }, Joint), Token(Token { kind: Lt, span: src/lib.rs:22:71: 22:72 (#0) }, JointHidden), Delimited(DelimSpan { open: src/lib.rs:22:72: 22:73 (#0), close: src/lib.rs:22:73: 22:74 (#0) }, DelimSpacing { open: JointHidden, close: Joint }, Parenthesis, AttrTokenStream([])), Token(Token { kind: Gt, span: src/lib.rs:22:74: 22:75 (#0) }, Alone), Delimited(DelimSpan { open: src/lib.rs:22:76: 22:77 (#0), close: src/lib.rs:24:5: 24:6 (#0) }, DelimSpacing { open: Alone, close: Alone }, Brace, AttrTokenStream([Token(Token { kind: Ident("return", No), span: src/lib.rs:23:9: 23:15 (#0) }, Alone), Token(Token { kind: Ident("vote_fn", No), span: src/lib.rs:23:16: 23:23 (#0) }, JointHidden), Delimited(DelimSpan { open: src/lib.rs:23:23: 23:24 (#0), close: src/lib.rs:23:33: 23:34 (#0) }, DelimSpacing { open: JointHidden, close: Joint }, Parenthesis, AttrTokenStream([Token(Token { kind: Ident("ctx", No), span: src/lib.rs:23:24: 23:27 (#0) }, Joint), Token(Token { kind: Comma, span: src/lib.rs:23:27: 23:28 (#0) }, Alone), Token(Token { kind: Ident("vote", No), span: src/lib.rs:23:29: 23:33 (#0) }, JointHidden)])), Token(Token { kind: Semi, span: src/lib.rs:23:34: 23:35 (#0) }, Alone)])), Token(Token { kind: Ident("pub", No), span: src/lib.rs:26:5: 26:8 (#0) }, Alone), Token(Token { kind: Ident("fn", No), span: src/lib.rs:26:9: 26:11 (#0) }, Alone), Token(Token { kind: Ident("execute_proposal", No), span: src/lib.rs:26:12: 26:28 (#0) }, JointHidden), Delimited(DelimSpan { open: src/lib.rs:26:28: 26:29 (#0), close: src/lib.rs:26:58: 26:59 (#0) }, DelimSpacing { open: JointHidden, close: Alone }, Parenthesis, AttrTokenStream([Token(Token { kind: Ident("ctx", No), span: src/lib.rs:26:29: 26:32 (#0) }, Joint), Token(Token { kind: Colon, span: src/lib.rs:26:32: 26:33 (#0) }, Alone), Token(Token { kind: Ident("Context", No), span: src/lib.rs:26:34: 26:41 (#0) }, Joint), Token(Token { kind: Lt, span: src/lib.rs:26:41: 26:42 (#0) }, JointHidden), Token(Token { kind: Ident("ExecuteProposal", No), span: src/lib.rs:26:42: 26:57 (#0) }, Joint), Token(Token { kind: Gt, span: src/lib.rs:26:57: 26:58 (#0) }, JointHidden)])), Token(Token { kind: RArrow, span: src/lib.rs:26:60: 26:62 (#0) }, Alone), Token(Token { kind: Ident("Result", No), span: src/lib.rs:26:63: 26:69 (#0) }, Joint), Token(Token { kind: Lt, span: src/lib.rs:26:69: 26:70 (#0) }, JointHidden), Delimited(DelimSpan { open: src/lib.rs:26:70: 26:71 (#0), close: src/lib.rs:26:71: 26:72 (#0) }, DelimSpacing { open: JointHidden, close: Joint }, Parenthesis, AttrTokenStream([])), Token(Token { kind: Gt, span: src/lib.rs:26:72: 26:73 (#0) }, Alone), Delimited(DelimSpan { open: src/lib.rs:26:74: 26:75 (#0), close: src/lib.rs:28:5: 28:6 (#0) }, DelimSpacing { open: Alone, close: Alone }, Brace, AttrTokenStream([Token(Token { kind: Ident("return", No), span: src/lib.rs:27:9: 27:15 (#0) }, Alone), Token(Token { kind: Ident("execute_proposal_fn", No), span: src/lib.rs:27:16: 27:35 (#0) }, JointHidden), Delimited(DelimSpan { open: src/lib.rs:27:35: 27:36 (#0), close: src/lib.rs:27:39: 27:40 (#0) }, DelimSpacing { open: JointHidden, close: Joint }, Parenthesis, AttrTokenStream([Token(Token { kind: Ident("ctx", No), span: src/lib.rs:27:36: 27:39 (#0) }, JointHidden)])), Token(Token { kind: Semi, span: src/lib.rs:27:40: 27:41 (#0) }, Alone)]))]))])),
+            ),
+        },
+    ],
+    spans: ModSpans {
+        inner_span: src/lib.rs:1:1: 29:2 (#0),
+        inject_use_span: no-location (#0),
+    },
+    id: NodeId(4294967040),
+    is_placeholder: false,
+}
